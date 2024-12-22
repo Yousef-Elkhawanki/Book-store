@@ -1,0 +1,47 @@
+header {
+  background-color: #00000075;
+  padding: 0.7rem 0;
+}
+
+.navbar-toggler {
+  background-color: var(--main-color);
+  span {
+    color: #fff;
+  }
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.nav-link,
+.nav-link:hover {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link.active,
+.nav-link.active:hover {
+  color: var(--active-color);
+}
+
+/* footer */
+
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem 0;
+}
+.image_lang {
+  object-fit: contain;
+}
+footer select {
+  background: transparent;
+  border: 1px solid #ffffff80;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff80;
+}

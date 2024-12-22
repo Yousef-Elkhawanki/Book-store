@@ -1,0 +1,11 @@
+body {
+  background-color: var(--bg-color);
+}
+
+.hero-section {
+  min-height: 20vh;
+}
+
+
+
+
