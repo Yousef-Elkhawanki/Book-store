@@ -8,4 +8,35 @@ body {
 
 
 
+.order {
+  background-color: #fff;
+  padding: 24px 24px 40px;
+  border: 1px solid #d9176c33;
+  border-radius: 20px;
+}
 
+.step_one,
+.step_three,
+.step_five {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.step_five {
+  background-color: #acacac;
+}
+
+.step_two,
+.step_four {
+  width: 300px;
+  height: 1px;
+  background-color: #acacac;
+}
