@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="./css/wishlist.css" />
+    <title>Book Store | Wishlist</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="/images/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars text-light"></i>
+              <!-- <span class="navbar-toggler-icon "></span> -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About us</a>
+                </li>
+              </ul>
+              <div class="d-flex gap-3">
+                <a class="main_btn login_btn" href="login.html" type="button"
+                  >Log in</a
+                >
+                <a class="primary_btn" href="register.html" type="button"
+                  >Sign Up
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="overlay"></div>
+      </header>
+    </section>
+    <main>
+      <section class="my-5">
+        <div class="container">
+          <div class="row py-4 table_head">
+            <div class="col-5">
+              <p>Item</p>
+            </div>
+            <div class="col-2">
+              <p>Quantity</p>
+            </div>
+            <div class="col-2">
+              <p>Price</p>
+            </div>
+            <div class="col-3">
+              <p>Total Price</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="item-cart row">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                  <div class="item-image">
+                    <img src="/images/book-1.jpg" alt="" class="w-100 h-100" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                  <div class="item-description d-flex flex-column gap-2">
+                    <p class="fw-bold">Rich Dad And Poor Dad</p>
+                    <p class="description">
+                      Author:
+                      <span class="fw-bold text-dark">Robert T. Kiyosanki</span>
+                    </p>
+                    <p class="description book-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Mauris et ultricies est. Aliquam in justo varius, sagittis
+                      neque ut,
+                    </p>
+                    <div class="dlivery d-flex gap-3">
+                      <img
+                        src="/images/shipping.png"
+                        alt=""
+                        width="20"
+                        height="20"
+                      />
+                      <p class="description">Free Shipping Today</p>
+                    </div>
+                    <p class="description">
+                      <span class="sell-code description fw-bold fs-5"
+                        >ASIN :</span
+                      >B09TWSRMCB
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-2 col-md-4 col-sm-4 d-flex align-items-center"
+                >
+                  <div class="d-flex gap-3 align-items-center mt-3">
+                    <div class="books_count d-flex gap-3 align-items-center">
+                      <span>-</span>
+                      <p>1</p>
+                      <span>+</span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-2 col-md-4 col-sm-4 d-flex align-items-center"
+                >
+                  <p class="fw-bold fs-5 mt-3">$40</p>
+                </div>
+                <div
+                  class="sell-price col-lg-2 col-md-4 col-sm-4 d-flex align-items-center"
+                >
+                  <p class="fw-bold fs-5 mt-3">$40</p>
+                </div>
+                <div
+                  class="col-lg-1 col-md-4 col-sm-4 d-flex align-items-center"
+                >
+                  <div class="fs-5 mt-3 del-item">
+                    <i class="fa-solid fa-trash-can main_text"></i>
+                    <p class="remove">Remove</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-4">
+              <div class="item-cart row">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                  <div class="item-image">
+                    <img src="/images/book-1.jpg" alt="" class="w-100 h-100" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                  <div class="item-description d-flex flex-column gap-2">
+                    <p class="fw-bold">Rich Dad And Poor Dad</p>
+                    <p class="description">
+                      Author:
+                      <span class="fw-bold text-dark">Robert T. Kiyosanki</span>
+                    </p>
+                    <p class="description book-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Mauris et ultricies est. Aliquam in justo varius, sagittis
+                      neque ut,
+                    </p>
+                    <div class="dlivery d-flex gap-3">
+                      <img
+                        src="/images/shipping.png"
+                        alt=""
+                        width="20"
+                        height="20"
+                      />
+                      <p class="description">Free Shipping Today</p>
+                    </div>
+                    <p class="description">
+                      <span class="sell-code description fw-bold fs-5"
+                        >ASIN :</span
+                      >B09TWSRMCB
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-2 col-md-4 col-sm-4 d-flex align-items-center"
+                >
+                  <div class="d-flex gap-3 align-items-center mt-3">
+                    <div class="books_count d-flex gap-3 align-items-center">
+                      <span>-</span>
+                      <p>1</p>
+                      <span>+</span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-2 col-md-4 col-sm-4 d-flex align-items-center"
+                >
+                  <p class="fw-bold fs-5 mt-3">$40</p>
+                </div>
+                <div
+                  class="sell-price col-lg-2 col-md-4 col-sm-4 d-flex align-items-center"
+                >
+                  <p class="fw-bold fs-5 mt-3">$40</p>
+                </div>
+                <div
+                  class="col-lg-1 col-md-4 col-sm-4 d-flex align-items-center"
+                >
+                  <div class="fs-5 mt-3 del-item">
+                    <i class="fa-solid fa-trash-can main_text"></i>
+                    <p class="remove">Remove</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-3 justify-content-center mt-4 flex-wrap">
+              <button class="main_btn move-cart-btn col-12 col-md-5 col-lg-2">
+                Move to cart
+              </button>
+
+              <button
+                class="main_btn d-flex justify-content-between align-items-center col-12 col-md-5 col-lg-4"
+              >
+                <div>
+                  <div class="checkout-btn">
+                    <p>2 Item</p>
+                    <p>$80</p>
+                  </div>
+                </div>
+                <div>
+                  <p class="fs-6 fw-bold">Check out</p>
+                </div>
+                <div class="arrow-icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

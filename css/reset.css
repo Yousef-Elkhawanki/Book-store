@@ -55,11 +55,13 @@ body {
   color: #fff;
   border: none;
   transition: 500ms;
+  border: 1px solid transparent;
 }
 
 .main_btn:hover {
   background-color: #fff;
   color: var(--main-color);
+  border: 1px solid var(--main-color);
 }
 
 /* primary btn */
@@ -138,4 +140,9 @@ textarea {
 .recommended_card__price p {
   font-size: 26px;
   font-weight: 600;
+}
+
+.description {
+  color: #22222280;
+  font-size: 14px;
 }
